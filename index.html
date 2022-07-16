@@ -15,7 +15,58 @@
 <button type="button" class="js-remove-listener">Снять слушатель</button>
 
         
+<!-- 03-input-events -->
+<label>
+  Имя
+  <input type="text" class="js-input" />
+</label>
+<p>
+  <label>
+    <input type="checkbox" class="js-license" />
+    Принимаю лицензионное соглашение
+  </label>
+</p>
+
+<button type="submit" disabled class="js-button">
+  Зарегистрироваться как <span>Аноним</span>
+</button>
+<!-- 03-END -->
+<!-- 04-keyboard-events -->
+<div>
+<button class="js-clear">Очистить</button>
+<p class="output js-output"></p>
+</div>
+<!-- 04-keyboard-events END-->
+
+<!-- 05-mouse-events-->
+<div class="box js-box">
+  <div class="inner-box"></div>
+</div>
+<!-- 05-mouse-events END -->
+
+<!-- 06-modal window -->
+
+<button class="button" data-action="open-modal">Открыть модалку</button>
+
+<div class="backdrop js-backdrop">
+<div class="modal">
+  <h2>Modal window</h2>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi sint nulla quas consectetur eveniet suscipit itaque, tenetur, magni eaque molestiae illo eos! Inventore quas, quo soluta ullam molestias a!
+  </p>
+  <button type="button" class="button" data-action="close-modal">
+    Закрыть модалку
+  </button>
+</div>
+</div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-  <script src="./js/01-event-listeners.js" type="module" ></script>
+  <!-- <script src="./js/01-listeners-events.js" type="module" ></script> -->
+  <!-- <script src="./js/03-input-events.js" type="module" ></script> -->
+  <!-- <script src="./js/04-keyboard-events.js" type="module" ></script> -->
+  <!-- <script src="./js/05-mouse-events.js" type="module" ></script> -->
+  <script src="./js/06-modal-window.js" type="module" ></script>
     </body>
