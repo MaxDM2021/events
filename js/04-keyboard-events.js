@@ -2,7 +2,7 @@ const refs = {
     output: document.querySelector('.js-output'),
     clearBtn: document.querySelector('.js-clear'),
 }
-// keydown - реагирует на все клавиши и команды
+// keydown  и keyup - реагирует на все клавиши и команды
 // window.addEventListener('keydown', onKeypress)
 // keypress - реагирует только на символы
 window.addEventListener('keypress', onKeypress)

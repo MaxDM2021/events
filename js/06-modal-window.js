@@ -17,11 +17,17 @@ refs.openModalBtn.addEventListener('click', onOpenModal);
 refs. closeModalBtn.addEventListener('click', onCloseModal);
 refs.backdrop.addEventListener('click', onBackdropClick);
 
+
+
+
+
 function onOpenModal () {
+    window.addEventListener('keydown', onEscKeyPress );
     document.body.classList.add('show-modal');
 }
 
 function onCloseModal () {
+    window.removeEventListener('keydown', onEscKeyPress );
     document.body.classList.remove('show-modal');
 }
 
@@ -29,4 +35,20 @@ function onBackdropClick(event) {
     console.log('Клик по backdrop')
     console.log(event.currentTarget)
     console.log(event.target);
+
+    if (event.currentTarget === event.target) {
+        console.log('Кликнули именно в бекдроп!!!')
+        onCloseModal();
+    }
 }
+
+function onEscKeyPress (event) {
+console.log(event.code);
+const ESC_KEY_CODE = 'Escape';
+const isEscKey = event.code === ESC_KEY_CODE
+
+if (isEscKey ){
+onCloseModal();
+}
+}
+
