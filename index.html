@@ -9,10 +9,42 @@
   </head>
     <body>
 <p><a href="/">На главную</a></p>
-
+<!-- 01 -слушатель -->
 <button type="button" class="js-target-btn">Целевая кнопка</button>
 <button type="button" class="js-add-listener">Добавить слушатель</button>
 <button type="button" class="js-remove-listener">Снять слушатель</button>
+
+<!-- 02- События формы -->
+<form class="js-register-form" autocomplete="off">
+  <div role="group">
+<label>
+  Почта
+  <input type="email" name="email" id="" />
+</label>
+<label>
+  Пароль
+  <input name="password" type="password" />
+</label>
+  </div>
+<br />
+<div role="group">
+  <b>Тип подписки:</b>
+  <label>
+    <input type="radio" name="subsription" value="free" />
+    Free
+  </label>
+  <label>
+    <input type="radio" name="subsription" value="basic" />
+    Basic
+  </label>  
+  <label>
+    <input type="radio" name="subsription" value="pro" />
+    Pro
+  </label>
+</div>
+
+<button type="submit">Зарегистрироваться</button>
+</form>
 
         
 <!-- 03-input-events -->
