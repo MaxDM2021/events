@@ -8,97 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
     <body>
-<p><a href="/">На главную</a></p>
-<!-- 01 -слушатель -->
-<button type="button" class="js-target-btn">Целевая кнопка</button>
-<button type="button" class="js-add-listener">Добавить слушатель</button>
-<button type="button" class="js-remove-listener">Снять слушатель</button>
-
-<!-- 02- События формы -->
-<form class="js-register-form" autocomplete="off">
-  <div role="group">
-<label>
-  Почта
-  <input type="email" name="email" id="" />
-</label>
-<label>
-  Пароль
-  <input name="password" type="password" />
-</label>
-  </div>
-<br />
-<div role="group">
-  <b>Тип подписки:</b>
-  <label>
-    <input type="radio" name="subsription" value="free" />
-    Free
-  </label>
-  <label>
-    <input type="radio" name="subsription" value="basic" />
-    Basic
-  </label>  
-  <label>
-    <input type="radio" name="subsription" value="pro" />
-    Pro
-  </label>
-</div>
-
-<button type="submit">Зарегистрироваться</button>
-</form>
-
-        
-<!-- 03-input-events -->
-<label>
-  Имя
-  <input type="text" class="js-input" />
-</label>
-<p>
-  <label>
-    <input type="checkbox" class="js-license" />
-    Принимаю лицензионное соглашение
-  </label>
-</p>
-
-<button type="submit" disabled class="js-button">
-  Зарегистрироваться как <span>Аноним</span>
-</button>
-<!-- 03-END -->
-<!-- 04-keyboard-events -->
-<div>
-<button class="js-clear">Очистить</button>
-<p class="output js-output"></p>
-</div>
-<!-- 04-keyboard-events END-->
-
-<!-- 05-mouse-events-->
-<div class="box js-box">
-  <div class="inner-box"></div>
-</div>
-<!-- 05-mouse-events END -->
-
-<!-- 06-modal window -->
-
-<button class="button" data-action="open-modal">Открыть модалку</button>
-
-<div class="backdrop js-backdrop">
-<div class="modal">
-  <h2>Modal window</h2>
-  <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi sint nulla quas consectetur eveniet suscipit itaque, tenetur, magni eaque molestiae illo eos! Inventore quas, quo soluta ullam molestias a!
-  </p>
-  <button type="button" class="button" data-action="close-modal">
-    Закрыть модалку
-  </button>
-</div>
-</div>
 
 
+<ul>
+  <li><a href="/01-listeners-event.html">Слушатель событий</a></li>
+  <li><a href="/02-forms-subscribes.html">Форма</a></li>
+  <li><a href="/03-input-events.html">Инпут-событие</a></li>
+  <li><a href="/04-keyboard-events.html">Клавиатура-событие</a></li>
+  <li><a href="/05-mouse-events.html">Мышь-событие</a></li>
+  <li><a href="/06-modal-window.html">Модальное окно</a></li>
+  <li><a href="/07-bubbing.html">Всплытие</a></li>
+</ul>
 
 
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-  <!-- <script src="./js/01-listeners-events.js" type="module" ></script> -->
-  <!-- <script src="./js/03-input-events.js" type="module" ></script> -->
-  <!-- <script src="./js/04-keyboard-events.js" type="module" ></script> -->
-  <!-- <script src="./js/05-mouse-events.js" type="module" ></script> -->
-  <script src="./js/06-modal-window.js" type="module" ></script>
+ 
     </body>

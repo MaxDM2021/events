@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06-modal-window</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+    <body>
+
+        <p><a href="/index.html">На главную</a></p>
+
+        <!-- 06-modal window -->
+
+        <button class="button" data-action="open-modal">Открыть модалку</button>
+
+        <div class="backdrop js-backdrop">
+        <div class="modal">
+          <h2>Modal window</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi sint nulla quas consectetur eveniet suscipit itaque, tenetur, magni eaque molestiae illo eos! Inventore quas, quo soluta ullam molestias a!
+          </p>
+          <button type="button" class="button" data-action="close-modal">
+            Закрыть модалку
+          </button>
+        </div>
+        </div>
+        
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<script src="./js/06-modal-window.js" type="module" ></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>07-bubbing</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+    <body>
+
+        <p><a href="/index.html">На главную</a></p>
+
+        <!-- 07-bubing -->
+
+        <style>
+#parent,
+#child,
+#inner-child {
+    margin: 16px;
+    padding: 16px;
+    border: 1px, solid #ffc107;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+#parent {
+    background-color: #673ab7; 
+}
+
+#child {
+    background-color: #448aff;
+}
+
+#inner-child {
+    background-color: #009688;
+}
+
+        </style>
+
+        <div id="parent">
+            PARENT
+            <div id="child">
+                CHILD
+                <div id="inner-child">INNER-CHILD</div>
+            </div>
+        </div>
+
+        
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<script src="./07-bubbing.js" type="module" ></script>
+</body>
+</html>
