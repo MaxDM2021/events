@@ -9,24 +9,121 @@
   </head>
     <body>
 
+
+        <style>
+            .feed {
+                list-style: none;
+            }
+        
+            .feed li:not(:last-child){
+                margin-bottom: 32px;
+            }
+        .feed img {
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: all 500ms linear 500ms;
+            width: 640px;
+            height: 480px;
+            object-fit: cover;
+        }
+        
+        .feed img.appear{
+            transform: translateX(0);
+            opacity: 1;
+        }
+        </style>
+
+
         <p><a href="/index.html">На главную</a></p>
 
         <!-- - 13-lazy-img - -->
+
+
 <ul class="feed">
     <li class="feed__item">
-        <img src="./" alt="">
+        <img 
+     loading="lazy"
+      class="lazyload"
+       data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
     </li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
-    <li class="feed__item"></li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="/img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/123.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
+    <li class="feed__item">
+        <img 
+        loading="lazy"
+        class="lazyload"
+        data-src="./img/11.jpg" alt="фон" width="640" height="480">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo est quidem vero natus id impedit. Ea cum, molestias doloribus, numquam non nobis natus nostrum eius officia iusto veritatis cupiditate.</p>
+    </li>
 </ul>
 
 

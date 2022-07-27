@@ -46,7 +46,6 @@ const listItemsMarkup = createListItemsMarkup(filteredItems);
 populateList(listItemsMarkup);
 }
 
-
 function populateList(markup) {
     refs.list.innerHTML = markup;
 }
